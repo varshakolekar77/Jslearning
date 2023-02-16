@@ -1,9 +1,9 @@
 console.log("*************Step 1*********");
 var myFullName;
 console.log(myFullName);
-myFullName="varsha kolekar";
+myFullName="Full name:varsha kolekar";
 console.log(myFullName);
-myFullName="varsha balasaheb kolekar";
+myFullName="Full name: varsha balasaheb kolekar";
 console.log(myFullName);
 
 console.log("***********Step 2************");
