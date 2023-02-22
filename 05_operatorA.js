@@ -10,16 +10,16 @@ function squareOfWordLength(string){
      
 
 }
-var Result=squareOfWordLength("Angular Developer ")  //function invoke
+var Result=squareOfWordLength("Angular Developer")  //function invoke
 console.log(`length of square is:${Result}`);
 
 var Result=squareOfWordLength("JavaScript ")
 console.log(`length of square is:${Result}`);
 
-var Result=squareOfWordLength(" Google Chrome ")
+var Result=squareOfWordLength("Google Chrome")
 console.log(`length of square is:${Result}`);
 
-var Result=squareOfWordLength(" Developer Smart ")
+var Result=squareOfWordLength("Developer Smart")
 console.log(`length of square is:${Result}`);
 
 
