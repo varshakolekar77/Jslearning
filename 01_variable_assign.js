@@ -18,4 +18,4 @@ var address="malegaon bk,tal:baramati,Dist:pune";
 var pincode="413102";
 var gender="female";
 var isMarried="yes";
-console.log("firstName:varsha","lastName:kolekar","age:24","address:malegaon bk,tal:baramati,Dist:pune","gender:female","isMarried:yes");
+console.log("firstName:",firstName,"lastName:",lastName,"age:",age,"address:",address,"gender:",gender,"isMarried:",isMarried);
