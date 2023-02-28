@@ -45,7 +45,7 @@ function gradeCalculation(marks){
     if(marks>=35 && marks<50){
         console.log(`Marks is ${marks} your grade is C,Need improvement`);  //d
     }
-    if(marks==0 || marks<0 || marks>100 || typeof marks!="number"|| marks==null){
+    if(marks==0 || marks<0 || marks>100 || typeof marks!="number"|| marks==null || isNaN(marks)){
         console.log(`Please provide the valid marks:${marks}`);     //e
     }
     
@@ -63,4 +63,5 @@ function gradeCalculation(marks){
     gradeCalculation("91");
     gradeCalculation("Eighty");
     gradeCalculation(null);
+    gradeCalculation(NaN);
     
