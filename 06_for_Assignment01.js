@@ -11,14 +11,14 @@ for (let index = 50; index >=40; index--) {
 }
 
 console.log(`3.wap to find first 15 odd numbers`);
-for (let index = 1; index <=30; index=index+2) {
-    if(index%2!==0)
+for (let index = 1; index%2!==0 && index<=30; index=index+2) {
+    
     console.log(index);
     
 }
 console.log(`4.wap to find first 10 even numbers`);
-for (let index = 0; index<=18; index=index+2) {
-    if(index%2==0)
+for (let index = 0;index<=18 && index%2==0; index=index+2) {
+    
     console.log(index);
     
 }
